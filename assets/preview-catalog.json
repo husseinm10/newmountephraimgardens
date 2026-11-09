@@ -1,0 +1,37 @@
+{
+  "afternoon-tea-voucher": {
+    "id": "afternoon-tea-voucher",
+    "name": "Afternoon Tea Gift Voucher",
+    "price": null,
+    "url": "/newmountephraimgardens/shop-items/afternoon-tea-voucher/",
+    "image": "/newmountephraimgardens/assets/170485a7d2a7.webp"
+  },
+  "adult-season-ticket-2026": {
+    "id": "adult-season-ticket-2026",
+    "name": "Adult Season Ticket 2027",
+    "price": 30,
+    "url": "/newmountephraimgardens/shop-items/adult-season-ticket-2026/",
+    "image": "/newmountephraimgardens/assets/5d4cedb209fd.webp"
+  },
+  "child-season-ticket-2026": {
+    "id": "child-season-ticket-2026",
+    "name": "Child Season Ticket 2027",
+    "price": 10,
+    "url": "/newmountephraimgardens/shop-items/child-season-ticket-2026/",
+    "image": "/newmountephraimgardens/assets/1390147e410f.webp"
+  },
+  "family-season-ticket-2026": {
+    "id": "family-season-ticket-2026",
+    "name": "Family Season Ticket 2027",
+    "price": 65,
+    "url": "/newmountephraimgardens/shop-items/family-season-ticket-2026/",
+    "image": "/newmountephraimgardens/assets/a529148a9189.webp"
+  },
+  "the-guidebook": {
+    "id": "the-guidebook",
+    "name": "The History of Mount Ephraim",
+    "price": null,
+    "url": "/newmountephraimgardens/shop-items/the-guidebook/",
+    "image": "/newmountephraimgardens/assets/39c50b782e63.webp"
+  }
+}

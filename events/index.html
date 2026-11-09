@@ -54,8 +54,8 @@
         "openingHours": "Apr–Sep: Wednesday–Sunday and bank holidays 11:00–16:00. Closed for winter; reopening Easter 2027. Closed 18–24 August 2027."
       }
     </script>
-  <link rel="stylesheet" href="/newmountephraimgardens/assets/newsletter.css"><script src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js" defer=""></script></head>
-  <body id="top" class="interior">
+  <link rel="stylesheet" href="/newmountephraimgardens/assets/newsletter.css"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="form-action 'none'"><link rel="stylesheet" href="/newmountephraimgardens/assets/preview.css"><script src="/newmountephraimgardens/assets/preview.js" defer=""></script></head>
+  <body id="top" class="interior"><div class="preview-ribbon">Design preview <span>·</span> No live orders, bookings or subscriptions</div>
     <a class="skip" href="#main">Skip to content</a>
     <div class="notice">
       The Gardens and Tea Room are now closed for winter - reopening Easter 2027
@@ -132,7 +132,7 @@
               </svg>
             </summary>
             <div class="submenu">
-              <a href="https://www.mountephraimgardens.co.uk/basket/">Basket</a>
+              <a href="/newmountephraimgardens/basket/">Basket</a>
             </div>
           </details>
         </div>
@@ -216,8 +216,8 @@
         <span class="eyebrow">Mount Ephraim</span>
         <h2>Sign-up to receive news about our gardens and events</h2>
       </div>
-      <form class="js-cm-form newsletter-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619953128A5350A8B40E63CCBEED0161C35A0FA4B19484114DC9FF7AB9FDA3126E959CAC49B97299CACB35786A6CE95B883"><div><div><label hidden="">Name </label><input type="hidden" aria-label="Name" id="fieldName" maxlength="200" name="cm-name"></div><div><label for="fieldEmail">Email </label><input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-gtydit-gtydit" required="" type="email" placeholder="Enter your email"></div></div>
-				<button type="submit">SEND</button></form>
+      <form class="newsletter-form" id="subForm" data-preview-newsletter=""><div><div><label hidden="">Name </label><input type="hidden" aria-label="Name" id="fieldName" maxlength="200"></div><div><label for="fieldEmail">Email </label><input autocomplete="Email" aria-label="Email" class="qa-input-email" id="fieldEmail" maxlength="200" required="" type="email" placeholder="Enter your email"></div></div>
+				<button type="button" data-preview-subscribe="">SEND</button><p class="preview-form-note">Preview only. Your email will not be sent or saved.</p></form>
     </section>
     <footer>
       <div class="footer-top">
@@ -230,7 +230,7 @@
         </div>
         <div>
           <h2>Contact Us</h2>
-          <a href="mailto:info@mountephraimgardens.co.uk">info@mountephraimgardens.co.uk</a><a href="tel:01227751496">01227 751496</a><a href="/newmountephraimgardens/contact-us/">Contact details &amp; availability
+          <a href="#preview-dialog" data-preview-action="contact">info@mountephraimgardens.co.uk</a><a href="#preview-dialog" data-preview-action="contact">01227 751496</a><a href="/newmountephraimgardens/contact-us/">Contact details &amp; availability
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true">
               <path d="M4 12h16M14 6l6 6-6 6"></path></svg></a>
         </div>
@@ -248,4 +248,4 @@
     </footer>
   
 
-</body></html>
+<dialog class="preview-dialog" id="preview-dialog" aria-labelledby="preview-title"><button type="button" class="preview-close" aria-label="Close preview message">×</button><span class="eyebrow">Design preview</span><h2 id="preview-title"></h2><p id="preview-message"></p><button type="button" class="button preview-done">Continue exploring</button></dialog><div class="preview-toast" role="status" aria-live="polite"></div></body></html>
